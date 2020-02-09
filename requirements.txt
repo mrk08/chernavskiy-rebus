@@ -1,0 +1,5 @@
+django
+Pillow
+nltk
+pymystem3
+
