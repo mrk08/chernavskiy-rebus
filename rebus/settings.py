@@ -25,7 +25,8 @@ SECRET_KEY = 'tcd-62((@(*6!@a(8nhw)kq3n+x&ya8+6-(7d7wh48ibai3$a0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+
 
 
 # Application definition
@@ -124,3 +125,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static")
 ]
+
+
+STATIC_ROOT = "/opt/chernavskiy-rebus/static/"
+
