@@ -35,10 +35,12 @@
                     <div class="col-12">
                         <h1 class="title__hidden mb-5 text-center">{{ rebus.title }}</h1>
                         <div class="d-flex align-self-center">
-                            <div class="w-50 text-justify pr-3" style="border-right: 4px solid #dadada;">{{ rebus.text | linebreaks }}</div>
+                            <div class="w-50 text-justify pr-3" style="border-right: 4px solid #dadada;">
+                                {{ rebus.text | linebreaks }}
+                                <a href="/" class="btn btn-dark mt-5">Сыграть еще</a>
+                            </div>
                             <img class="w-50 ml-3" src="/{{ rebus.image.url }}">
                         </div>
-                        <a href="/" class="btn btn-dark">Сыграть еще</a>
                     </div>
                     </div>
                 </div>
