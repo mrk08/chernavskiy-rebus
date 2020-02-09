@@ -127,5 +127,5 @@ STATICFILES_DIRS = [
 ]
 
 
-STATIC_ROOT = "/opt/chernavskiy-rebus/static/"
+STATIC_ROOT = "/opt/chernavskiy-rebus/assets/"
 
